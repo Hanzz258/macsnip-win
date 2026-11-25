@@ -1,0 +1,33 @@
+name: Feature Request
+description: Suggest an improvement or enhancement for macsnip-win
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement! Note that **macsnip-win** aims to stay tiny, native, and zero-dependency (single-file C# compiled via built-in `csc.exe`).
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / Use Case
+      description: What workflow or pain point does this feature solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Solution
+      description: Describe how you envision this working.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Optional — any workarounds or alternative designs you considered.
+    validations:
+      required: false
